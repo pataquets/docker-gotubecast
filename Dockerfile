@@ -1,5 +1,5 @@
 FROM golang
 
-RUN go get -v github.com/CBiX/gotubecast
+RUN go get -v cbix.de/gotubecast
 
 ENTRYPOINT [ "gotubecast" ]
